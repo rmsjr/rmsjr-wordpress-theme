@@ -1,0 +1,126 @@
+@import '/bootstrap/variables.less';
+@import '/bootstrap/mixins.less';
+@import '/varriables.less';
+@import '/mixins.less';
+
+@sprite-common-url: '../../img/sp-common.png';
+
+@font-face {
+  font-family: 'rmsjr';
+  src: url('../fonts/rmsjr.eot?58046498');
+  src: url('../fonts/rmsjr.eot?58046498#iefix') format('embedded-opentype'),
+       url('../fonts/rmsjr.woff?58046498') format('woff'),
+       url('../fonts/rmsjr.ttf?58046498') format('truetype'),
+       url('../fonts/rmsjr.svg?58046498#rmsjr') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'rmsjr';
+    src: url('../font/rmsjr.svg?58046498#rmsjr') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+
+  margin:0;
+  color:#999;
+  border:2px solid #333;
+  border-radius: 30px;
+  padding:10px;
+  margin-top: 0;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+
+.menu-item
+{
+  [class^="icon-"]:before, [class*=" icon-"]:before
+  {
+    border:1px solid #666;
+    border-radius: 20px;
+    padding:10px;
+    font-size: 20px;
+    width: auto;
+    margin-top:0;
+  }
+
+  i
+  {
+      &._mi
+      {
+        margin-top: 0;
+      }
+      padding: 8px 19px;
+  }
+
+  &.current-menu-item
+  {
+    [class^="icon-"]:before, [class*=" icon-"]:before
+    {
+      color: #0097c9;
+      border:1px solid #0097c9;;
+      //background-color: #000;
+    }
+
+    
+  }
+
+  &.menu-trigger
+  {
+    a
+    {
+      color:#333;
+    }
+    a:hover{
+      text-decoration: none;
+    }
+    font-size: 30px;
+    color:#333;
+    padding: 0;
+
+    a:before
+    {
+      color:#333;
+    }
+
+    span {
+      display: none;
+    }
+  }
+
+  // RMSJR Logo
+  &.rmsjr-menu-item
+  {
+
+    .icon-rmsjr-logo-black:before{
+    font-size: 50px;
+    padding:0;
+    border:0;
+  }
+
+    &.menu-item [class^="icon-"]:before, &.menu-item [class*=" icon-"]:before
+    {
+        margin-top: 0;
+        margin-left:0px;
+        color:#fff;
+    }
+
+    i
+    {
+      padding: 0;
+    }
+    
+    margin-top:0;
+    border-bottom:0px solid #666;
+    padding: 15px 15px 15px 15px;
+    // background-color: #000;
+  }
+}

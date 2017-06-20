@@ -1,0 +1,21 @@
+.border-radius(@radius) {
+	-webkit-border-radius:@radius;
+	-moz-border-radius:@radius;
+	border-radius:@radius;
+}
+
+.sprite-common(@left:0; @top:0;) {
+	background-image: url(@sprite-common-url);
+	background-repeat: no-repeat;
+	background-position: @left @top;
+}
+
+.border-box-sizing() {
+	box-sizing:border-box;
+}
+
+.ir () {
+	display:block;
+	text-indent: -9999px;
+	overflow: hidden;
+}

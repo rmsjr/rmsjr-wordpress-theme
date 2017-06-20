@@ -1,0 +1,73 @@
+// custom varriables
+@brand-primary:         #ff0000;
+@brand-success:         #5cb85c;
+@brand-warning:         #f0ad4e;
+@brand-danger:          #d9534f;
+@brand-info:            #5bc0de;
+
+@font-size-large:       21px;
+@font-size-medium:      16px;
+@font-size-base:        14px;
+
+// default theme
+@text-color:#333;
+@sprite-common-url: '../img/sp-common.png';
+@gray-darker:           #000;
+@brand-primary:         #65b0f0;
+@brand-success:         #5cb85c;
+@brand-warning:         #f0ad4e;
+@brand-danger:          #d9534f;
+@brand-info:            #5bc0de;
+@white:					#fff;
+
+@black: #000;
+@gray-dark: #333;
+@gray-medium: #666;
+@gray-medium-light: #999;
+@gray-light: #ccc;
+@gray-very-light: #efefef;
+
+@light-border-color:    #efefef;
+@medium-border-color:   #ccc;
+@darker-border-color:   #666;
+
+@light-shadow-color:    #efefef;
+@medium-shadow-color:   #ccc;
+@light-text-color:   	#ccc;
+@darker-shadow-color:   #666;
+
+@base-nav-color:        #666;
+@nav-text-color:        lighten(@base-nav-color, 90%);
+@nav-active-background-color: darken(@base-nav-color, 20%);
+@nav-hover-background-color: darken(@base-nav-color, 5%);
+@nav-border-highlight-color:lighten(@base-nav-color, 10%);
+@nav-border-shadow-color:darken(@base-nav-color, 15%);
+
+@secondary-text-color:#666;
+@link-color: @brand-primary;
+@grid-gutter:2px;
+@side-nav-width: @grid-gutter + 50px;
+@nonfsitem-gutter:0px;
+
+//** Load fonts from this directory.
+@icon-font-path:          "../fonts/";
+@linkColor: #0097c9;
+
+
+
+// xLarge screen / wide desktop
+@screen-xl:                  1441px;
+@screen-xl-min:              @screen-xl;
+//** Deprecated `@screen-lg-desktop` as of v3.0.1
+@screen-xl-desktop:          @screen-xl-min;
+
+// So media queries don't overlap when required, provide a maximum
+@screen-lg-max:              (@screen-xl-min - 1);
+
+//== Container sizes
+//
+//## Define the maximum width of `.container` for different screen sizes.
+// xLarge screen / wide desktop
+@container-xlarge-desktop:      (1240px + @grid-gutter-width);
+//** For `@screen-xl-min` and up.
+@container-xl:                 @container-xlarge-desktop;

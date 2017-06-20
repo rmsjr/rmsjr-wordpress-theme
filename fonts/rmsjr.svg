@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2016 by original authors @ fontello.com</metadata>
+<defs>
+<font id="rmsjr" horiz-adv-x="1000" >
+<font-face font-family="rmsjr" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="rmsjr-articles-icon" unicode="&#xe800;" d="m712 856h-583v-1006h742v847l-159 159z m-477-106h477v-53h-477v53z m0-106h206v-53h-206v53z m0-106h206v-53h-206v53z m0-106h206v-53h-206v53z m530-470h-530v53h530v-53z m0 106h-530v53h530v-53z m0 100h-530v53h530v-53z m0 106h-530v53h530v-53z m0 105h-265v265h265v-265z" horiz-adv-x="1000" />
+<glyph glyph-name="rmsjr-work-icon" unicode="&#xe801;" d="m299 841l546-544h-145v-153h-141v-137l-546 546c29 60 69 118 119 168 50 50 106 91 167 120z m582-870c-18-18-32-38-42-60l149-51-50 151c-21-10-40-23-57-40z" horiz-adv-x="1000" />
+<glyph glyph-name="rmsjr-logo-black" unicode="&#xe802;" d="m500-150c-276 0-500 224-500 500 0 276 224 500 500 500 276 0 500-224 500-500 0-276-224-500-500-500z m0 919c-232 0-419-188-419-419s187-419 419-419c70 0 136 17 194 48-105 38-315 127-315 223 0 127 234 168 212 251-27 106-380 96-380 96s347 41 438-77c83-107-149-156-135-243 11-63 214-108 323-127 52 69 82 155 82 248 0 231-188 419-419 419z" horiz-adv-x="1000" />
+<glyph glyph-name="rmsjr-info-icon" unicode="&#xe803;" d="m606-153h-212v653h212v-653z m0 1006h-212v-212h212v212z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
